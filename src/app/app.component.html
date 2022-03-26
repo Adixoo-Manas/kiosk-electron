@@ -1,0 +1,9 @@
+<app-navbar></app-navbar>
+<div class="grid_img_parent_class">
+  <img src="assets/images/bg1.png" class="bg_img_class" alt="..."/>
+</div>
+<div class="event_cards_parent_class">
+  <app-event-cards *ngFor="let data of EventsData" [location]="data.time_zone" ></app-event-cards>
+</div>
+
+
